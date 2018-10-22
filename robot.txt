@@ -1,0 +1,4 @@
+sitemap: https://www.progressivewebapproom.com/sitemap.xml
+
+User-agent: *
+Disallow: /

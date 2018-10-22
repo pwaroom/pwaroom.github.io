@@ -1,0 +1,198 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/* /Responsive adapt **********************************************************************************************************************************/
+
+    @media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+
+    }
+    @media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+      body{
+        background-color: #fff;
+      }
+
+      .container{
+        max-width: 60%;
+        background-color: white;
+      }
+
+      .col.l12 {
+        padding-top:1rem;
+        padding-bottom: 1rem;
+      }
+
+    }
+
+    @media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+      }
+
+
+    @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+      .col.l12 {
+        padding-top:1rem;
+        padding-bottom: 1rem;
+      }
+
+      .item {
+          width: 120px !important;
+          margin: 2rem 0 2rem 1.6rem !important;
+      }
+
+      .item img {
+            height: 120px !important;
+        }
+
+      
+      .row h2 {
+            color: #555;
+            margin-left: 2rem !important;
+            font-size: 2.4rem;
+      }
+
+      .h-container {
+      white-space: normal !important;
+      }
+
+     .actionbar-icon{
+      margin: 1rem 1rem 0 !important;
+    }
+
+       
+    }
+
+    @media (min-width:1281px) { /* hi-res laptops and desktops */
+      .col.l12 {
+        padding-top:1rem;
+        padding-bottom: 1rem;
+      }
+
+          .text-item p{
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    }
+/* /Responsive adapt **********************************************************************************************************************************/
+
+
+/*  Custom style **********************************************************************************************************************************/
+
+    .card img{
+    	margin-top:1rem;
+    }
+
+    small{
+    	font-size: 1rem;
+    	color: #bdbdbd;
+    }
+
+    a h3{
+    	color:#555;
+      white-space: pre-wrap;
+    }
+
+    .item h3{
+    	font-size: 1rem;
+    }
+
+    .hero{
+      width: 100%;
+    }
+
+    .hero h1{
+      font-weight: 200;
+      color:#555;
+      margin:0;
+      background-color: #fff;
+      text-align: center;
+      padding:3rem 2rem 1rem;
+    }
+
+    .row h2{
+      color:#555;
+      margin-left: 1.5rem;
+    }
+     
+    .h-container {
+        width: 100%;
+        height: auto;
+        overflow:auto;
+        margin-right: 0px;
+        white-space: nowrap;
+    }
+
+    .first-item{
+      margin-left: 0.5rem;
+      }
+
+    .item {
+      vertical-align: top;
+      width:70px;
+      height: auto;
+      margin: 0 0 1rem 1.5rem;
+      display: inline-block;
+    }
+
+    .item img{
+      height:70px;
+    }
+
+    .item-img{
+      width:70px;
+    }
+
+    .row{
+      margin-top:30px;
+    }
+
+    .first-row{
+      margin-top:10px;
+    }
+
+
+    .m10{
+      margin:0;
+      padding: 0;
+      line-height: 1.5;
+    }
+
+    .mt10{
+      margin-top: 10px;
+    }
+
+    .m20{
+      margin:10px 0 10px;
+    }
+
+    .grey-70{
+      color:#555;
+    }
+
+    .grey-300{
+      background-color: white;
+    }
+
+    .specs{
+      cursor: pointer;
+      float: left;
+      font-size: 14px;
+      line-height: 30px;
+      padding-right: 8px;
+    }
+
+   .fixed-action-btn.horizontal ul li {
+    display: inline-block;
+    width: auto;
+    }
+
+    .mail{
+      font-size: 1.1em;
+    }
+
+
+/*  /Custom style **********************************************************************************************************************************/
+
+
+
+
