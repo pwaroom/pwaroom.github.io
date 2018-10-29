@@ -1,0 +1,347 @@
+{
+    "gartic": {
+        "title": "Gartic",
+        "description": "Gartic is an online drawing game in which players have to guess what the other players are drawing. With up to 10 participants per room, at the start of every round, a player is chosen to draw a random word, while the other players have to try and guess it. The first player to score more than 120 points wins.",
+        "url": "https://m.gartic.net/",
+        "isMultiplayerRequired": true,
+        "type": "Ability",
+        "isRegistrationRequired": false,
+        "connection": "always_online"
+    },
+    "fidgetspinner": {
+        "title": "Fidget Spinner",
+        "description": "Spin to score! This arcade game will see how much you can spin the toy. Twirl the spinner fast to mark new records of RPM and accumule spins to unlock new spinners, with new designs!",
+        "url": "https://www.fidgetspin.xyz/",
+        "isMultiplayerRequired": false,
+        "type": "Arcade",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "breaklock": {
+        "title": "Breaklock",
+        "description": "A hybrid of Mastermind and the Android pattern lock. A game you gonna love to hate. The difficulty setting changes the amount of dots to connect. Easy is 4 dots, medium is 5 dots and hard is 6 dots. Good luck!",
+        "url": "https://maxwellito.github.io/breaklock/?utm_source=homescreen",
+        "isMultiplayerRequired": false,
+        "type": "Puzzle",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "memorygame": {
+        "title": "Memory Game",
+        "description": "Train your memory!Just tap on the card to reveal what's behind it. Your aim is to find all the possible pair as soon as possible.",
+        "url": "https://pwa-memory-game.surge.sh/index.html",
+        "isMultiplayerRequired": false,
+        "type": "Puzzle",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "snakisms": {
+        "title": "Snakisms",
+        "description": "Pippin Barr's Snakisms is a version of the classic game Snake, but with a selection of philosophical viewpoints to choose from at the outset.",
+        "url": "https://pippinbarr.github.io/SNAKISMS/index.html",
+        "isMultiplayerRequired": false,
+        "type": "Puzzle",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "2048": {
+        "title": "2048",
+        "description": "The goal is to get a single square to be 2048. Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!",
+        "url": "https://2048-opera-pwa.surge.sh/",
+        "isMultiplayerRequired": false,
+        "type": "Puzzle",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "webflap": {
+        "title": "Web Flap",
+        "description": "Fly through the pipes without crashing! This extremely addictive arcade game spawned a worldwide Flappy Bird craze. You must react quickly to glide through each set of pipes. Time each move perfectly to continue flying and set a high score!",
+        "url": "https://www.progressivewebflap.com/",
+        "isMultiplayerRequired": false,
+        "type": "Arcade",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "paperplanes": {
+        "title": "Paper Planes",
+        "description": "Throw a paper plane as far as you can. Collect points and upgrade your plane so you can throw it even further.",
+        "url": "https://paperplanes.world/",
+        "isMultiplayerRequired": false,
+        "type": "Simulation",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "toppletrump": {
+        "title": "Topple Trump",
+        "description": "Topple Trump is the US presidential election game you'll love to hate. Can you take down Trump before it's too late?",
+        "url": "https://toppletrump.com/",
+        "isMultiplayerRequired": false,
+        "type": "Humor quiz",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "padpiper": {
+        "title": "PadPiper",
+        "description": "An easier way to find student housing. We know how hard it can be to find housing as a student, so we created PadPiper to make a better process for students and landlords.",
+        "url": "https://www.padpiper.com/",
+        "type": "Search apartment",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "redbus": {
+        "title": "Redbus",
+        "description": "World's largest online bus ticketing platform offers bus travels, ac volvo bus, hotels and bus hire at best rates. Easy cancellation and Instant refund.",
+        "url": "",
+        "type": "Traveling",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "jwshowcase": {
+        "title": "JW Showcase",
+        "description": "JW Showcase is an open-source video website builder. It enables anyone to create beautiful, mobile-responsive html5 video site in 15 minutes with no coding and minimal configuration.",
+        "url": "https://pwa.jwvid.tv/",
+        "type": "Video player",
+        "isRegistrationRequired": false,
+        "connection": "online"
+    },
+    "nylon": {
+        "title": "NYLON",
+        "description": "Fashion, beauty, music and pop culture news for today's young women. Multiplatform media service that focus on art, beauty, music, design, celebrities, technology and travel.",
+        "url": "https://www.nylon.com/",
+        "type": "Magazine",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "resi": {
+        "title": "Resi",
+        "description": "Resi delivers you the most important news of the day in a very entertaining way via a messaging interface the same way a good friend would do.",
+        "url": "https://app.resiapp.io/",
+        "type": "News feed",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "climadiario": {
+        "title": "Clima Diario",
+        "description": "Your daily weather. Know in real time the weather conditions and the forecast of the next hours, your neighborhood or the other side of the world.",
+        "url": "https://app.climadiario.com/",
+        "type": "Weather channel",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "naukri": {
+        "title": "Naukri",
+        "description": "Connect with 20000+ employers. Apply to Millions of job opportunities across top companies, industries and locations on India's No.1 job site. Apply online.",
+        "url": "https://www.naukri.com/",
+        "type": "Job search",
+        "isRegistrationRequired": true,
+        "connection": "online_suggested"
+    },
+    "dscova": {
+        "title": "Dscova",
+        "description": "Whether you’re local to the area and looking for a new way to spend your day, or a globetrotter on an exciting adventure, Dscova will help you find unique experiences the guidebooks don’t tell you about!",
+        "url": "https://dscova.com/",
+        "type": "Experiences guide",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "near": {
+        "title": "Near",
+        "description": "Chat with people near you! People can talk with each other nearby in a web app. We would like to share what we did and how to make it.",
+        "url": "https://near.idgo.me/",
+        "type": "Social chat",
+        "isRegistrationRequired": false,
+        "connection": "online"
+    },
+    "barcelona": {
+        "title": "Barcelona",
+        "description": "The new app of Points of Interest of the City allows to consult all the information of the outstanding places of the set of districts of Barcelona.",
+        "url": "https://webapp.barcelona.cat/pics/",
+        "type": "Guide",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "twitter": {
+        "title": "Twitter",
+        "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+        "url": "https://twitter.com/",
+        "type": "News feed",
+        "isRegistrationRequired": true,
+        "connection": "online_suggested"
+    },
+    "medium": {
+        "title": "Medium",
+        "description": "Welcome to Medium, a place to read, write, and interact with the stories that matter most to you. Every day, thousands of voices read, write, and share important stories on Medium.",
+        "url": "https://medium.com/",
+        "type": "News feed",
+        "isRegistrationRequired": true,
+        "connection": "online_suggested"
+    },
+    "housing": {
+        "title": "Housing",
+        "description": "Search Property in India's first Map Based Real Estate Portal. Browse New projects, flats, ready to move apartments for rent and sale.",
+        "url": "http://www.housing.com/",
+        "type": "Real state",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "zumata": {
+        "title": "Zumata",
+        "description": "We use artificial intelligence to read and understand your requirements in order to match you with your perfect hotel. Behind the scenes we’re compiling billions of data points from reviews, blogs, articles, social media, and even imagery to truly understand what properties offer the amenities, sentiments, or location you need.",
+        "url": "https://ai.zumata.com/",
+        "type": "Hotel search",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "tudu": {
+        "title": "Tudú",
+        "description": "Organize and prioritize your tasks and projects so you can stress less and achieve more. Create your to do lists in a very easy way!",
+        "url": "https://erwinandres.github.io/tudu/",
+        "type": "To do list",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "smashing": {
+        "title": "Smashing Magazine",
+        "description": "Smashing Magazine is a website and eBook publisher that offers editorial content and professional resources for web developers and web designers.",
+        "url": "https://www.smashingmagazine.com/",
+        "type": "News",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "forbes": {
+        "title": "Forbes",
+        "description": "Forbes is a global media company, focusing on business, investing, technology, entrepreneurship, leadership, and lifestyle.",
+        "url": "https://m.forbes.com/",
+        "type": "News",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "footpeek": {
+        "title": "Foot Peek",
+        "description": "All of football results in a simple and fast way, you can choose different leagues of around europe.",
+        "url": "https://footballpeek.com/",
+        "type": "Sports news",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "billingsgazette": {
+        "title": "Billings Gazette",
+        "description": "The Billings Gazette is the largest newspaper in Montana and Wyoming. It is geographically one of the most widely distributed newspapers in the nation.",
+        "url": "https://ai.billingsgazette.com/",
+        "type": "News",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "flipboard": {
+        "title": "Flipboard",
+        "description": "The all-new Flipboard organizes the world's stories, so you can get the best news for all your passions in one place. Used by millions of people every day, Flipboard bring together news, popular stories and conversations around any interest or passion.",
+        "url": "https://flipboard.com/",
+        "type": "News feed",
+        "isRegistrationRequired": true,
+        "connection": "online_suggested"
+    },
+    "financialtimes": {
+        "title": "Financial Times",
+        "description": "News, analysis and comment from the Financial Times, the world's leading global business publication.",
+        "url": "https://app.ft.com/",
+        "type": "News",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "sportsmole": {
+        "title": "Sports Mole",
+        "description": "The latest sports news, from football to tennis and cricket to rugby, updated around the clock.",
+        "url": "https://amp.sportsmole.co.uk/",
+        "type": "Sports news",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "zuperkulblog": {
+        "title": "Zuperkülblog",
+        "description": "A blog about art, films, dedsign, photography now a few articles because is under construction.",
+        "url": "https://zuperkulblog.appspot.com/",
+        "type": "News feed",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "alibaba": {
+        "title": "Alibaba",
+        "description": "Find quality Manufacturers, Suppliers, Exporters, Importers, Buyers, Wholesalers, Products and Trade Leads from our award-winning International Trade Site.",
+        "url": "",
+        "type": "Shopping",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "garbarino": {
+        "title": "Garbarino",
+        "description": "Buy Online at Garbarino. The best deals on technology, appliances and household items.",
+        "url": "https://www.garbarino.com/",
+        "type": "Ecommerce",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "snapdeal": {
+        "title": "Snapdeal",
+        "description": "Online shopping site in India to shop Electronics, Mobile, Men and Women Clothing, Shoes, Home and Kitchen appliances online on Snapdeal in India.",
+        "url": "https://m.snapdeal.com/",
+        "type": "Ecommerce",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "flipkart": {
+        "title": "Flipkart",
+        "description": "Fashion, beauty, music and pop culture news for today's young women. Multiplatform media service that focus on art, beauty, music, design, celebrities, technology and travel.",
+        "url": "https://www.flipkart.com/",
+        "type": "Magazine",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "aliexpress": {
+        "title": "Aliexpress",
+        "description": "Online Shopping for Cheap Automotive, Phones Accessories, Computers Electronics, Fashion, Beauty Health, Home Garden, Toys Sports, Weddings Events...",
+        "url": "https://m.aliexpress.com/",
+        "type": "Ecommerce",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "5miles": {
+        "title": "5 Miles",
+        "description": "Buy and sell local cars, furniture, electronics and also local services: beauty, auto repair, home cleaning within 5 miles.",
+        "url": "https://www.5milesapp.com/",
+        "type": "Classifieds",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "trivago": {
+        "title": "Trivago",
+        "description": "Every month 120+ million visitors use trivago to search and compare hotel prices, read reviews and browse photos. Find your ideal hotel deal on trivago.",
+        "url": "https://www.trivago.com/",
+        "type": "Real state",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "notes": {
+        "title": "Notes",
+        "description": "Write your notes whenever you want and save it to be consulted online and offline.",
+        "url": "https://sii.im/playground/notes/",
+        "type": "Save notes",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "landlines": {
+        "title": "Land Lines",
+        "description": "Write your landlines whenever you want and save it to be consulted online and offline.",
+        "url": "https://lines.chromeexperiments.com/index.html",
+        "type": "Search lines on lands",
+        "isRegistrationRequired": false,
+        "connection": "online_suggested"
+    },
+    "currencyconverter": {
+        "title": "Currency Converter",
+        "description": "Write your currencyconverter whenever you want and save it to be consulted online and offline.",
+        "url": "https://currency-converter.senviet.org/",
+        "type": "Tool",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    }
+}
