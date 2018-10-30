@@ -6,7 +6,7 @@
         "isMultiplayerRequired": true,
         "type": "Ability",
         "isRegistrationRequired": false,
-        "connection": "always_online"
+        "connection": "online"
     },
     "fidgetspinner": {
         "title": "Fidget Spinner",
@@ -343,5 +343,14 @@
         "type": "Tool",
         "isRegistrationRequired": false,
         "connection": "offline"
+    },
+    "tinder": {
+        "title": "Tinder",
+        "description": "With 20 billion matches to date, Tinder is the world’s most popular app for meeting new people.",
+        "url": "https://www.tinder.com/index.html",
+        "type": "Dating",
+        "isRegistrationRequired": true,
+        "connection": "online"
     }
+
 }
