@@ -1,6 +1,9 @@
 [
     {"title": "Games",
      "elements": [
+         {"id": "whichone", "title": "Which one?"}, 
+         {"id": "hextris", "title": "Hextris"}, 
+         {"id": "dominoes", "title": "Dominoes"},
          {"id": "gartic", "title": "Gartic"},
          {"id": "fidgetspinner", "title": "Fidget Spinner"},
          {"id": "breaklock", "title": "BreakLock"},

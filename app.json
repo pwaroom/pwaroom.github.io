@@ -351,6 +351,33 @@
         "type": "Dating",
         "isRegistrationRequired": true,
         "connection": "online"
-    }
+    },
+    "dominoes": {
+        "title": "Dominoes",
+        "description": "Play some bones! Dominoes is the classic logic game. You can play Single or Multiplayer mode.",
+        "url": "https://dominoes.playdrift.com/",
+        "type": "Classic",
+        "isRegistrationRequired": false,
+        "connection": "online",
+        "isMultiplayerRequired": false,
+    },
+    "hextris": {
+        "title": "Hextris",
+        "description": "Hextris is a challenging and intriguing puzzle game in which you must try and stack a series of different colored blocks in a hexagonal formation.",
+        "url": "https://hextris.love2dev.com/",
+        "type": "Puzzle",
+        "isRegistrationRequired": false,
+        "connection": "online",
+        "isMultiplayerRequired": false,
+    },
+    "whichone": {
+        "title": "Whichone",
+        "description": "Choose left or right as fast as you can.",
+        "url": "https://mmazzarolo.github.io/which-one/",
+        "type": "Ability",
+        "isRegistrationRequired": false,
+        "connection": "offline",
+        "isMultiplayerRequired": false,
+    },
 
 }
