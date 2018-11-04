@@ -378,6 +378,5 @@
         "isRegistrationRequired": false,
         "connection": "offline",
         "isMultiplayerRequired": false,
-    },
-
+    }
 }
