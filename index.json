@@ -1,9 +1,11 @@
 [
     {"title": "Games",
      "elements": [
+         {"id": "sudoku", "title": "Sudoku"}, 
          {"id": "whichone", "title": "Which one?"}, 
          {"id": "hextris", "title": "Hextris"}, 
          {"id": "dominoes", "title": "Dominoes"},
+         {"id": "photopieces", "title": "photopieces"},
          {"id": "gartic", "title": "Gartic"},
          {"id": "fidgetspinner", "title": "Fidget Spinner"},
          {"id": "breaklock", "title": "BreakLock"},
@@ -13,38 +15,61 @@
          {"id": "webflap", "title": "Web Flap"},
          {"id": "paperplanes", "title": "Paper Planes"},
          {"id": "toppletrump", "title": "Topple Trump"}
-     ]
+     ]    
     },
     {"title": "Lifestyle",
      "elements": [
          {"id": "tinder", "title": "Tinder"},
+         {"id": "reboot", "title": "Reboot"},
+         {"id": "kimovil", "title": "Kimovil"},
+         {"id": "coinranking", "title": "Coinranking"},
+         {"id": "happyplants", "title": "Happy Plants"},
+         {"id": "mitula", "title": "Mitula"},
          {"id": "padpiper", "title": "PadPiper"},
-         {"id": "redbus", "title": "RedBus"},
-         {"id": "jwshowcase", "title": "JWShowcase"},
          {"id": "nylon", "title": "NYLON"},
-         {"id": "resi", "title": "Resi"},
          {"id": "climadiario", "title": "ClimaDiario"},
          {"id": "naukri", "title": "Naukri"},
          {"id": "dscova", "title": "Dscova"},
          {"id": "near", "title": "Near"},
-         {"id": "barcelona", "title": "Barcelona"},
          {"id": "twitter", "title": "Twitter"},
-         {"id": "medium", "title": "Medium"},
          {"id": "housing", "title": "Housing"},
-         {"id": "zumata", "title": "Zumata"},
-         {"id": "tudu", "title": "Tudú"}         
+         {"id": "zumata", "title": "Zumata"}         
      ]
+    },
+    {"title": "Travel",
+     "elements": [
+        {"id": "tajawal", "title": "Tajawal"},
+        {"id": "barcelona", "title": "Barcelona"},
+        {"id": "trivago", "title": "Trivago"},
+        {"id": "redbus", "title": "RedBus"}          
+     ]
+    },
+    {"title": "Entertainment",
+        "elements": [
+            {"id": "9gag", "title": "9GAG"},
+            {"id": "spotlight", "title": "Spotlight"},
+            {"id": "imgur", "title": "Imgur"},
+            {"id": "jwshowcase", "title": "JWShowcase"} 
+        ]
     },
     {"title": "News",
      "elements": [
+         {"id": "medium", "title": "Medium"},
+         {"id": "resi", "title": "Resi"},
          {"id": "smashing", "title": "Smashing Magazine"},
          {"id": "forbes", "title": "Forbes"},
          {"id": "footpeek", "title": "Foot Peek"},
          {"id": "billingsgazette", "title": "Billings Gazette"},
          {"id": "flipboard", "title": "Flipboard"},
-         {"id": "financialtimes", "title": "Financial Times"},
-         {"id": "sportsmole", "title": "SportsMole"},
-         {"id": "zuperkulblog", "title": "Zuperkülblog"}
+         {"id": "financialtimes", "title": "Financial Times"}
+     ]
+    },
+    {"title": "Sports",
+     "elements": [
+        {"id": "wikihoops", "title": "Wikihoops"},
+        {"id": "sportsmole", "title": "SportsMole"},
+        {"id": "nflnow", "title": "NFL Now"},
+        {"id": "zuperkulblog", "title": "Zuperkülblog"}   
      ]
     },
     {"title": "Shopping",
@@ -54,15 +79,18 @@
          {"id": "snapdeal", "title": "Snapdeal"},
          {"id": "flipkart", "title": "Flipkart"},
          {"id": "aliexpress", "title": "Aliexpress"},
-         {"id": "5miles", "title": "5 Miles"},
-         {"id": "trivago", "title": "Trivago"}
+         {"id": "5miles", "title": "5 Miles"}
      ]
     },
     {"title": "Tools",
      "elements": [
-         {"id": "notes", "title": "Notes"},
+        {"id": "quotery", "title": "Quotery"},
+        {"id": "qrcodescan", "title": "QRCodescan"},
+        {"id": "codeqr", "title": "Code QR"},
+        {"id": "notes", "title": "Notes"},
          {"id": "landlines", "title": "Land Lines"},
+         {"id": "tudu", "title": "Tudú"},
          {"id": "currencyconverter", "title": "Currency Converter"}
      ]
-    }
+    }   
 ]

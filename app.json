@@ -349,7 +349,7 @@
         "description": "With 20 billion matches to date, Tinder is the world’s most popular app for meeting new people.",
         "url": "https://www.tinder.com/index.html",
         "type": "Dating",
-        "isRegistrationRequired": true,
+        "isRegistrationRequired": false,
         "connection": "online"
     },
     "dominoes": {
@@ -357,7 +357,7 @@
         "description": "Play some bones! Dominoes is the classic logic game. You can play Single or Multiplayer mode.",
         "url": "https://dominoes.playdrift.com/",
         "type": "Classic",
-        "isRegistrationRequired": false,
+        "isRegistrationRequired": true,
         "connection": "online",
         "isMultiplayerRequired": false
     },
@@ -366,7 +366,7 @@
         "description": "Hextris is a challenging and intriguing puzzle game in which you must try and stack a series of different colored blocks in a hexagonal formation.",
         "url": "https://hextris.love2dev.com/",
         "type": "Puzzle",
-        "isRegistrationRequired": false,
+        "isRegistrationRequired": true,
         "connection": "online",
         "isMultiplayerRequired": false
     },
@@ -375,8 +375,139 @@
         "description": "Choose left or right as fast as you can.",
         "url": "https://mmazzarolo.github.io/which-one/",
         "type": "Ability",
-        "isRegistrationRequired": false,
+        "isRegistrationRequired": true,
         "connection": "offline",
         "isMultiplayerRequired": false
+    },
+    "sudoku": {
+        "title": "Sudoku",
+        "description": "Sudoku is a logic-based, combinatorial number-placement puzzle. The objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contains all of the digits from 1 to 9.",
+        "url": "https://sudoku.netlify.com/",
+        "type": "Puzzle",
+        "isRegistrationRequired": true,
+        "connection": "offline",
+        "isMultiplayerRequired": false
+    },
+    "photopieces": {
+        "title": "Photo Pieces",
+        "description": "An easy puzzle where you have to complete the pictures.",
+        "url": "https://photo-pieces.netlify.com/",
+        "type": "Puzzle",
+        "isRegistrationRequired": true,
+        "connection": "offline",
+        "isMultiplayerRequired": false
+    },
+    "reboot": {
+        "title": "Reboot",
+        "description": "A timer counter that help you to take small breaks from your work.",
+        "url": "https://reboot.netlify.com/",
+        "type": "Timmer",
+        "isRegistrationRequired": true,
+        "connection": "offline",
+        "isMultiplayerRequired": false
+    },
+    "tajawal": {
+        "title": "Tajawal",
+        "description": "Book cheap flights, airline tickets and hotels online!",
+        "url": "https://www.tajawal.com/mweb",
+        "type": "Booking",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "nflnow": {
+        "title": "NFL Now",
+        "description": "The destination for all NFL videos. Watch games, teams and highlights of the NFL World & more.",
+        "url": "https://www.nfl.com/",
+        "type": "Sports",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "wikihoops": {
+        "title": "Wikihoops",
+        "description": "Find out which of last night's NBA games are worth watching, or catch up on results and schedules without spoiling a game you're going to watch a replay of",
+        "url": "https://wikihoops.com/",
+        "type": "Sports",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "kimovil": {
+        "title": "Kimovil",
+        "description": "On Kimovil you can compare the price of phone you are looking at over 100 national and international stores.",
+        "url": "https://wikihoops.com/",
+        "type": "Technology",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "qrcodescan": {
+        "title": "QRCodescan",
+        "description": "A super easy QR Reader. Turn on the camera, capture the code and discover what it has.",
+        "url": "https://qrcodescan.in/index.html",
+        "type": "QR Scan",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "codeqr": {
+        "title": "Code QR",
+        "description": "Create your own QR codes with this simple and good designed app.",
+        "url": "https://roneetkumar.github.io/code/",
+        "type": "QR Creator",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "quotery": {
+        "title": "Quotery",
+        "description": "An awesome list of quotes. You can explore, collect and share your favourites quotes.",
+        "url": "https://www.quotery.com/",
+        "type": "Inspiration",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "coinranking": {
+        "title": "Coinranking",
+        "description": "Check the real-time crypto prices.",
+        "url": "https://coinranking.com/",
+        "type": "Cryptocurrencies",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "mitula": {
+        "title": "Mitula",
+        "description": "Search Engine for Real Estate for rent and for sale in the US. Find your next Flat, House, Apartment or Rooms to share with Mitula.",
+        "url": "https://www.mitula.com/",
+        "type": "Real Estate",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "happyplants": {
+        "title": "Happy Plants",
+        "description": "Search Engine for Real Estate for rent and for sale in the US. Find your next Flat, House, Apartment or Rooms to share with Mitula.",
+        "url": "https://happyplants.garden/",
+        "type": "Plants",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "spolight": {
+        "title": "Spotlight",
+        "description": "Keep track of everything popular, new and upcoming in the world of entertainment, even when your browser is closed.",
+        "url": "https://spotlight.tooo.io/",
+        "type": "Movies",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "9gag": {
+        "title": "9GAG",
+        "description": "The best funny pics, gifs, videos, gaming, anime, manga, movie, tv, cosplay, sport, food, memes, cute, fail, wtf photos on the internet!",
+        "url": "https://m.9gag.com/",
+        "type": "Funny Content",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "imgur": {
+        "title": "Imgur",
+        "description": "Discover the magic of the internet at Imgur, a community powered entertainment destination. Lift your spirits with funny jokes, trending memes, entertaining gifs, inspiring stories, viral videos, and so much more.",
+        "url": "https://m.imgur.com/",
+        "type": "Funny Content",
+        "isRegistrationRequired": true,
+        "connection": "offline"
     }
 }
