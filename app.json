@@ -359,7 +359,7 @@
         "type": "Classic",
         "isRegistrationRequired": false,
         "connection": "online",
-        "isMultiplayerRequired": false,
+        "isMultiplayerRequired": false
     },
     "hextris": {
         "title": "Hextris",
@@ -368,7 +368,7 @@
         "type": "Puzzle",
         "isRegistrationRequired": false,
         "connection": "online",
-        "isMultiplayerRequired": false,
+        "isMultiplayerRequired": false
     },
     "whichone": {
         "title": "Whichone",
@@ -377,6 +377,6 @@
         "type": "Ability",
         "isRegistrationRequired": false,
         "connection": "offline",
-        "isMultiplayerRequired": false,
+        "isMultiplayerRequired": false
     }
 }
