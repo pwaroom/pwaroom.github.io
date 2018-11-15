@@ -159,7 +159,7 @@
               }
               $("#details").append(detailItems);
               var navigationButton = "<a href='" + app['url'] + "' class='grey darken-3 btn-large btn-floating'" +
-                  "onClick='ga('send','event','detail-item','clickout','click-" + id + "')' rel='nofollow'>GO!</a>";
+                  "onClick=\"ga('send','event','detail-item','clickout','click-" + id + "')\" rel='nofollow'>GO!</a>";
               $("#navigate").append(navigationButton);
         });
 
