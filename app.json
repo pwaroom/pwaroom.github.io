@@ -486,7 +486,7 @@
         "isRegistrationRequired": true,
         "connection": "offline"
     },
-    "spolight": {
+    "spotlight": {
         "title": "Spotlight",
         "description": "Keep track of everything popular, new and upcoming in the world of entertainment, even when your browser is closed.",
         "url": "https://spotlight.tooo.io/",
