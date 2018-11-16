@@ -1,8 +1,14 @@
 [
     {"title": "Games",
      "elements": [
-         {"id": "sudoku", "title": "Sudoku"}, 
-         {"id": "whichone", "title": "Which one?"}, 
+         {"id": "sudoku", "title": "Sudoku"},
+         {"id": "towergame", "title": "Tower Game"}, 
+         {"id": "littlealchemy2", "title": "Little Alchemy 2"},
+         {"id": "thecube", "title": "The Cube"},
+         {"id": "whichone", "title": "Which one?"},
+         {"id": "bubblepairs", "title": "Bubble Pairs"},
+         {"id": "globaldefense", "title": "Global Defense"},
+         {"id": "higherorlower", "title": "Higher or Lower"},
          {"id": "hextris", "title": "Hextris"}, 
          {"id": "dominoes", "title": "Dominoes"},
          {"id": "photopieces", "title": "photopieces"},

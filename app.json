@@ -509,5 +509,53 @@
         "type": "Funny Content",
         "isRegistrationRequired": true,
         "connection": "offline"
+    },
+    "towergame": {
+        "title": "Tower Game",
+        "description": "Stack blocks and build the talles tower, so you need from your ability to achieve it!",
+        "url": "https://www.towergame.app/",
+        "type": "Ability",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "littlealchemy2": {
+        "title": "Little Alchemy 2",
+        "description": "Mix items and create the world from scratch! Discover interesting items accompanied by funny descriptions and lose yourself exploring the huge, exciting library!",
+        "url": "https://littlealchemy2.com/",
+        "type": "Puzzle",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "thecube": {
+        "title": "The Cube",
+        "description": "The classic Rubik's cube, but in amazing 3D inteface",
+        "url": "https://bsehovac.github.io/the-cube/",
+        "type": "Puzzle",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "globaldefense": {
+        "title": "Global Defense",
+        "description": "Global Defense is a Massive Multiplayer Online space defender game. Start a game as single player and destroy the asteroids approaching the planet.",
+        "url": "https://globaldefense.club/",
+        "type": "Ability",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "bubblepairs": {
+        "title": "Bubble Pairs",
+        "description": "A good old memory game with new and unique elements that make play experience remarkable.",
+        "url": "https://bubblepairs.apps.in.rs/",
+        "type": "Memory",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "higherorlower": {
+        "title": "Higher or Lower",
+        "description": "Higher or Lower card game. What's the best score you can get?",
+        "url": "https://onge.co.uk/higherorlower/es6/",
+        "type": "Cards",
+        "isRegistrationRequired": true,
+        "connection": "offline"
     }
 }
