@@ -49,7 +49,10 @@
     },
     {"title": "Travel",
      "elements": [
+        {"id": "airbnb", "title": "Airbnb"},
+        {"id": "ride", "title": "Ride"},
         {"id": "tajawal", "title": "Tajawal"},
+        {"id": "ola", "title": "Ola"},
         {"id": "barcelona", "title": "Barcelona"},
         {"id": "trivago", "title": "Trivago"},
         {"id": "redbus", "title": "RedBus"}          
@@ -107,6 +110,9 @@
      "elements": [
         {"id": "omnicalculator", "title": "omni Calculator"},
         {"id": "spellboy", "title": "SpellBoy"},
+        {"id": "tracks", "title": "Tracks"},
+        {"id": "snapdrop", "title": "Snapdrop"},
+        {"id": "unitrack", "title": "Unitrack"},
         {"id": "tomatoeswork", "title": "Tomatoes Work"},
         {"id": "wordcounter", "title": "Word Counter"},        
         {"id": "codeqr", "title": "Code QR"},        

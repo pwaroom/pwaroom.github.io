@@ -740,6 +740,53 @@
         "type": "Calculator",
         "isRegistrationRequired": true,
         "connection": "offline"
+    },
+    "ola": {
+        "title": "Ola",
+        "description": "Uncertain when your cab will arrive? Use Ola cabs, an app that lets you see the closest available cabs around you and book with just one-touch.",
+        "url": "https://book.olacabs.com/",
+        "type": "Car Booking",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "airbnb": {
+        "title": "Airbnb",
+        "description": "Unforgettable trips start with Airbnb. Find adventures nearby or in faraway places and access unique homes, experiences, and places around the world.",
+        "url": "https://www.airbnb.com/",
+        "type": "Booking",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "tracks": {
+        "title": "Tracks",
+        "description": "Logging time spent on certain tasks is an invaluable utility function for the professional - knowing how much to bill each customer or company. Or maybe you have a more mundane domestic use? Back in the day, I even wrote my own utility, Timelog.",
+        "url": "https://tracks.tmpo.io/",
+        "type": "Productivity",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "snapdrop": {
+        "title": "Snapdrop",
+        "description": "The easiest way to transfer files across devices. Forked with ♥ by OneDoes.",
+        "url": "https://onedoes.github.io/snapdrop/",
+        "type": "Send Files",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "unitrack": {
+        "title": "Snapdrop",
+        "description": "Dead simple package tracking for FedEx, OnTrac, UPS, and USPS. Set the shipment code and follow your deliveries.",
+        "url": "https://getunitrack.com/",
+        "type": "Delivery",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "ride": {
+        "title": "Ride",
+        "description": "Ride is the beautiful multi city bike share app showing you realtime information about the bike share scheme in your city.",
+        "url": "https://www.ride-app.com/",
+        "type": "Bike share",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
     }
-
 }
