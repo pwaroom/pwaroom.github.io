@@ -17,6 +17,11 @@
         background-color: white;
       }
 
+      .wid60{
+        max-width: 60%;
+        margin:auto;
+      }
+
       .col.l12 {
         padding-top:1rem;
         padding-bottom: 1rem;
@@ -106,7 +111,7 @@
       margin:0;
       background-color: #fff;
       text-align: center;
-      padding:3rem 2rem 1rem;
+      padding:2rem 2rem 1rem;
     }
 
     .row h2{
@@ -190,9 +195,60 @@
       font-size: 1.1em;
     }
 
+    .menu-item{
+      font-size: 0.9em;
+      color:lightgray;
+    }
+
+    .menu a:hover{
+      background: none;
+      color: black;
+    }
+
+    .long-text{
+      color:#555;
+      margin: auto;
+      font-size: 1em;
+      line-height: 1.5em;
+      padding: 2em 2em 1em;
+    }
+
+    .high{
+      font-size: 1.5em;
+      line-height: 1.2em;
+      font-weight: 600;
+      color:#555;
+      text-align: center;
+    }
+
+    .long-text li{
+      padding-left: 1rem;
+      font-size: 0.9em;
+    }
+
+    
+    .strong{
+      font-weight: 700 !important;
+    }
+
+    .title{
+      font-size: 1.3em;
+      font-weight: 400;
+      color:#555;
+      margin:0;
+      background-color: #fff;
+      text-align: center;
+      padding:2rem 2rem 1rem;
+    }
+
+    .footer{
+      padding-top: 1.5em;
+      text-align: center;
+    }
+
+    .footer a{
+      color:lightgray;
+    }
+
 
 /*  /Custom style **********************************************************************************************************************************/
-
-
-
-

@@ -385,8 +385,7 @@
         "url": "https://sudoku.netlify.com/",
         "type": "Puzzle",
         "isRegistrationRequired": true,
-        "connection": "offline",
-        "isMultiplayerRequired": false
+        "connection": "offline_required"
     },
     "photopieces": {
         "title": "Photo Pieces",
@@ -394,7 +393,7 @@
         "url": "https://photo-pieces.netlify.com/",
         "type": "Puzzle",
         "isRegistrationRequired": true,
-        "connection": "offline",
+        "connection": "offline_required",
         "isMultiplayerRequired": false
     },
     "reboot": {
@@ -403,7 +402,7 @@
         "url": "https://reboot.netlify.com/",
         "type": "Timmer",
         "isRegistrationRequired": true,
-        "connection": "offline",
+        "connection": "offline_required",
         "isMultiplayerRequired": false
     },
     "tajawal": {
@@ -412,7 +411,7 @@
         "url": "https://www.tajawal.com/mweb",
         "type": "Booking",
         "isRegistrationRequired": true,
-        "connection": "offline"
+        "connection": "online"
     },
     "nflnow": {
         "title": "NFL Now",
@@ -444,7 +443,7 @@
         "url": "https://qrcodescan.in/index.html",
         "type": "QR Scan",
         "isRegistrationRequired": true,
-        "connection": "offline"
+        "connection": "offline_required"
     },
     "codeqr": {
         "title": "Code QR",
@@ -452,7 +451,7 @@
         "url": "https://roneetkumar.github.io/code/",
         "type": "QR Creator",
         "isRegistrationRequired": true,
-        "connection": "offline"
+        "connection": "offline_required"
     },
     "quotery": {
         "title": "Quotery",
