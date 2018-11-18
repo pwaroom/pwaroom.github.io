@@ -556,5 +556,190 @@
         "type": "Cards",
         "isRegistrationRequired": true,
         "connection": "offline"
+    },
+    "xylo": {
+        "title": "Xylo",
+        "description": "Xylo is a simple, vibrant digital xylophone. You can play it with your fingers on touch enabled screens or using the keyboard.",
+        "url": "https://xylo.playsprout.industries/",
+        "type": "Play Music",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "spellboy": {
+        "title": "SpellBoy",
+        "description": "Instant spelling and grammar checker. Supports English, German, Russian, Dutch, French and Spanish.",
+        "url": "https://www.spellboy.com/corrector-gramatical/",
+        "type": "Text Corrector",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "gpacalculator": {
+        "title": "GPA Calculator",
+        "description": "Instant spelling and grammar checker. Supports English, German, Russian, Dutch, French and Spanish.",
+        "url": "https://gpacalculator.io/",
+        "type": "Education",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "periodex": {
+        "title": "Periodex",
+        "description": "Periodex is a simple, responsive way to explore the periodic table of elements. We hope it provides a quick and enjoyable reference for students and enthusiasts.",
+        "url": "https://periodex.co/",
+        "type": "Education",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "wikipedia": {
+        "title": "Wikipedia",
+        "description": "This is a little experiment showing off different kinds of content delivery & offline-first. To mess around with how this page is served, check out the flags. Source is on GitHub.",
+        "url": "https://wiki-offline.jakearchibald.com/wiki/Bar",
+        "type": "Knowledge",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "splitme": {
+        "title": "Split Me",
+        "description": "Split household bills with roommates, figure out costs for a group trip, remember when a friend spots you for lunch.",
+        "url": "https://splitme.net/accounts",
+        "type": "Finances",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "carecards": {
+        "title": "Care Cards",
+        "description": "A set of tips to keep you afloat. Care Cards are a set of kind thoughts and helpful little activities to keep you on top of your mental well-being.",
+        "url": "https://carecards.io/cards",
+        "type": "Self-Help",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "meditate": {
+        "title": "Meditate",
+        "description": "A super zen designed timmer, set how many time you want to medite, push play and let you mind resting free",
+        "url": "https://meditation-timer.org/",
+        "type": "Meditation",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "spotify": {
+        "title": "Spotify",
+        "description": "A super zen designed timmer, set how many time you want to medite, push play and let you mind resting free",
+        "url": "https://open.spotify.com/browse",
+        "type": "Music",
+        "isRegistrationRequired": false,
+        "connection": "online"
+    },
+    "sfxr": {
+        "title": "SFXR",
+        "description": "Sfxr is a utility that generates sound effects according to certain parameters. The result will remind you of the typical video game sounds for computers and old consoles.",
+        "url": "https://stammel.net/projekte/sfxr/",
+        "type": "Music",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "1tuner": {
+        "title": "1Tuner",
+        "description": "Here you can listen to online radio stations. And plan your own ideal radio listening day (planner), so the player switches between radio streams automatically.",
+        "url": "https://1tuner.com/",
+        "type": "Radio",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "audiogrooves": {
+        "title": "Audio Grooves",
+        "description": "The new audiogrooves website require modern browsers like chrome and Firefox or even Microsoft edge. If you seeing the loading frozen, probably means your ..",
+        "url": "https://audiogrooves.net/",
+        "type": "Radio",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "guitartuner": {
+        "title": "Guitar Tuner",
+        "description": "Super nice and easy to use tuner, afine your guitar to find the perfect sounds!",
+        "url": "https://guitar-tuner.appspot.com/",
+        "type": "Tuner",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "airhorner": {
+        "title": "Air Horner",
+        "description": "An Air horn. Probably the best air horn web app there is.",
+        "url": "https://airhorner.com/",
+        "type": "Sound",
+        "isRegistrationRequired": true,
+        "connection": "offline_required"
+    },
+    "slate": {
+        "title": "Slate",
+        "description": "Online magazine of news, politics, technology, and culture. Combines humor and insight in thoughtful analyses of current events and political news.",
+        "url": "https://slate.com/",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "lequipe": {
+        "title": "L'Équipe",
+        "description": "The sport live on L'EQUIPE. The information, results and rankings of all sports. Direct commented, images and videos to watch and share!",
+        "url": "https://m.lequipe.fr/",
+        "type": "Sports News",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "rep": {
+        "title": "Rep:",
+        "description": "Repubblica is the online newspaper updated 24 hours on 24 on politics, news, economy, sports, foreign, shows, music, culture, science, technology.",
+        "url": "https://rep.repubblica.it/",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "zero": {
+        "title": "Zero",
+        "description": "Discover the best events and places in Italy recommended by Zero: the guide to all the events not to be missed!",
+        "url": "https://zero.eu/en/",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "headline": {
+        "title": "HEADLINE",
+        "description": "Get live headlines from over 40 sources including Bloomberg, The New York Times, TechCrunch, The Verge, The Washington Post and many more.",
+        "url": "https://headline.tooo.io/",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "theguardian": {
+        "title": "The Guardian",
+        "description": "Latest international news, sport and comment from the Guardian. The Guardian is a British daily newspaper. It was known from 1821 until 1959 as The Manchester Guardian.",
+        "url": "https://www.theguardian.com/uk",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "wordcounter": {
+        "title": "Word Counter",
+        "description": "Word Counter is a clean and simple web interface for counting words, characters and pages, checking grammar and spelling, keyword density and more. Why? At Wasai we are committed to building awesome digital products for all.",
+        "url": "https://wordcounter.io/",
+        "type": "Counter",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "tomatoeswork": {
+        "title": "Tomatoes Work",
+        "description": "Tomatoes Works is a free online timer that based the Pomodoro Technique® that allows you to concentrate on getting things done and being more productive and eliminate distraction. Please bear in mind - This application is not affiliated with, associated with nor endorsed by the Pomodoro Technique® or Francesco Cirillo. The Pomodoro Technique® and Pomodoro™ are registered trademarks by Francesco Cirillo.",
+        "url": "https://tomatoes.work/",
+        "type": "Productivity",
+        "isRegistrationRequired": true,
+        "connection": "offline"
+    },
+    "omnicalculator": {
+        "title": "omni Calculator",
+        "description": "Omni Calculator exists to help you make better, informed decisions. We’re doing it by providing the numbers you need to avoid guessing in the dark. A world driven by rational decisions would be a better place. Rational, smart, informed, less stupid - pick your favorite, it’s up to you. A world where we don’t waste resources as much, believe BS a bit less and act based on facts rather than emotions.",
+        "url": "https://www.omnicalculator.com/",
+        "type": "Calculator",
+        "isRegistrationRequired": true,
+        "connection": "offline"
     }
+
 }
