@@ -788,5 +788,78 @@
         "type": "Bike share",
         "isRegistrationRequired": true,
         "connection": "offline_required"
+    },
+    "makemytrip": {
+        "title": "makemytrip",
+        "description": "MakeMyTrip Limited is an Indian online travel company, founded in 2000. Headquartered in Gurugram, Haryana, the company provides online travel services including flight tickets, domestic and international holiday packages, hotel reservations, rail and bus tickets.",
+        "url": "https://www.makemytrip.com/",
+        "type": "Travel",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "coolcousin": {
+        "title": "Cool Cousin",
+        "description": "Make the most of your travel time and dime, with city guides and advice from the city's coolest locals.",
+        "url": "https://www.coolcousin.com/",
+        "type": "Local Guides",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "independent": {
+        "title": "Independent",
+        "description": "The Independent is a British online newspaper. Established in 1986 as an independent national morning newspaper published in London.",
+        "url": "https://www.independent.co.uk/",
+        "type": "UK News",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "wired": {
+        "title": "Wired",
+        "description": "Wired is a monthly American magazine, published in print and online editions, that focuses on how emerging technologies affect culture, the economy, and politics.",
+        "url": "https://www.wired.com/",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "mic": {
+        "title": "Mic",
+        "description": "Mic covers news, opinion, reviews and analysis around arts, entertainment, celebrity, LGBTQ, social justice, police brutality, dating, sex, feminism, body positivity, ...",
+        "url": "https://mic.com/",
+        "type": "News",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "inspireme": {
+        "title": "Inspire Me",
+        "description": "An insanely simple progressive web application that gets quotes from forismatic to inspires you.",
+        "url": "https://instant-inspiration-pwa.firebaseapp.com/",
+        "type": "Quotes",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "redaxsounds": {
+        "title": "Redax Sounds",
+        "description": "Relax and sleep with great collection of HD sounds. Create your own sound by mixing different ambiental souds.",
+        "url": "https://qdzungpham.com/redaxsounds/",
+        "type": "Sounds",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "posifocus": {
+        "title": "Posifocus",
+        "description": "The Posifocus Productivity app helps you not only organize all of your obligations and responsibilities, but it helps you get in the right state of mind to stay focused on what is most important and be exceptionally productive with your time. So rather than just surviving the daily grind, you will be thriving in a life full of purpose and meaning!",
+        "url": "https://posifocus.surge.sh/",
+        "type": "Productivity",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "getkana": {
+        "title": "Get Kana",
+        "description": "Learning the syllabaries is the first step for successful japanese learning. Master the hiragana and katakana in no time with Kana!",
+        "url": "https://getkana.com/",
+        "type": "Learning",
+        "isRegistrationRequired": true,
+        "connection": "online"
     }
+
 }

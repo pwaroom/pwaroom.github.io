@@ -26,24 +26,22 @@
     {"title": "Lifestyle",
      "elements": [
          {"id": "tinder", "title": "Tinder"},
-         {"id": "splitme", "title": "Split Me"},
-         {"id": "carecards", "title": "Care Cards"},
-         {"id": "meditate", "title": "Meditate"},
          {"id": "reboot", "title": "Reboot"},
+         {"id": "carecards", "title": "Care Cards"},
+         {"id": "splitme", "title": "Split Me"},
+         {"id": "posifocus", "title": "Posifocus"},
+         {"id": "meditate", "title": "Meditate"},
          {"id": "kimovil", "title": "Kimovil"},
          {"id": "gpacalculator", "title": "GPA Calculator"},
          {"id": "coinranking", "title": "Coinranking"},
          {"id": "happyplants", "title": "Happy Plants"},
-         {"id": "mitula", "title": "Mitula"},
          {"id": "wikipedia", "title": "Wikipedia"},
          {"id": "padpiper", "title": "PadPiper"},
          {"id": "nylon", "title": "NYLON"},
-         {"id": "climadiario", "title": "ClimaDiario"},
          {"id": "naukri", "title": "Naukri"},
          {"id": "dscova", "title": "Dscova"},
          {"id": "near", "title": "Near"},
          {"id": "twitter", "title": "Twitter"},
-         {"id": "housing", "title": "Housing"},
          {"id": "zumata", "title": "Zumata"}         
      ]
     },
@@ -51,16 +49,19 @@
      "elements": [
         {"id": "airbnb", "title": "Airbnb"},
         {"id": "ride", "title": "Ride"},
+        {"id": "coolcousin", "title": "Cool Cousin"},
         {"id": "tajawal", "title": "Tajawal"},
         {"id": "ola", "title": "Ola"},
         {"id": "barcelona", "title": "Barcelona"},
         {"id": "trivago", "title": "Trivago"},
+        {"id": "makemytrip", "title": "Make My Trip"},
         {"id": "redbus", "title": "RedBus"}          
      ]
     },
     {"title": "Entertainment",
     "elements": [
         {"id": "spotify", "title": "Spotify"},
+        {"id": "getkana", "title": "Get Kana"},
         {"id": "1tuner", "title": "1Tuner"},
         {"id": "audiogrooves", "title": "Audio Grooves"},
         {"id": "9gag", "title": "9GAG"},
@@ -68,20 +69,25 @@
         {"id": "spotlight", "title": "Spotlight"},
         {"id": "imgur", "title": "Imgur"},
         {"id": "sfxr", "title": "SFXR"},
-        {"id": "jwshowcase", "title": "JWShowcase"} 
+        {"id": "jwshowcase", "title": "JWShowcase"},
+        {"id": "redaxsounds", "title": "Redax Sounds"}
     ]
     },
     {"title": "News",
      "elements": [
          {"id": "medium", "title": "Medium"},
+         {"id": "wired", "title": "Wired"},
          {"id": "headline", "title": "HEADLINE"},
          {"id": "slate", "title": "Slate"},
          {"id": "rep", "title": "Rep:"},
+         {"id": "mic", "title": "Mic"},
          {"id": "zero", "title": "Zero"},
          {"id": "resi", "title": "Resi"},
          {"id": "flipboard", "title": "Flipboard"},
+         {"id": "climadiario", "title": "ClimaDiario"},
          {"id": "smashing", "title": "Smashing Magazine"},
          {"id": "theguardian", "title": "The Guardian"},
+         {"id": "independent", "title": "Independent"},
          {"id": "forbes", "title": "Forbes"},
          {"id": "billingsgazette", "title": "Billings Gazette"},
          {"id": "financialtimes", "title": "Financial Times"}
@@ -96,12 +102,14 @@
         {"id": "nflnow", "title": "NFL Now"}
      ]
     },
-    {"title": "Shopping",
+    {"title": "Shopping / Classifieds",
      "elements": [
          {"id": "alibaba", "title": "Alibaba"},
          {"id": "garbarino", "title": "Garbarino"},
          {"id": "snapdeal", "title": "Snapdeal"},
          {"id": "flipkart", "title": "Flipkart"},
+         {"id": "housing", "title": "Housing"},
+         {"id": "mitula", "title": "Mitula"},
          {"id": "aliexpress", "title": "Aliexpress"},
          {"id": "5miles", "title": "5 Miles"}
      ]
@@ -113,6 +121,7 @@
         {"id": "tracks", "title": "Tracks"},
         {"id": "snapdrop", "title": "Snapdrop"},
         {"id": "unitrack", "title": "Unitrack"},
+        {"id": "inspireme", "title": "Inspire Me"},
         {"id": "tomatoeswork", "title": "Tomatoes Work"},
         {"id": "wordcounter", "title": "Word Counter"},        
         {"id": "codeqr", "title": "Code QR"},        
