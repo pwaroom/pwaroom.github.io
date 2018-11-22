@@ -26,13 +26,18 @@
     }
 
     @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    
+    header h1,p{
+      width:80%;
+    }
+
     .col.l12 {
       padding-top:1rem;
       padding-bottom: 1rem;
     }
 
-    .responsive-img{
-      max-width: 40%;
+    .col.s6 {
+      width: 30% !important;
     }
 
     .item {
@@ -43,7 +48,6 @@
     .item img {
       height: 80px !important;
     }
-
       
     .row h2 {
       color: #555;
@@ -53,6 +57,7 @@
 
     .h-container {
       white-space: normal !important;
+      width: 40%;
     }
 
     .actionbar-icon{
