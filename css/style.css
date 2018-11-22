@@ -31,6 +31,10 @@
       padding-bottom: 1rem;
     }
 
+    .responsive-img{
+      max-width: 40%;
+    }
+
     .item {
       width: 80px !important;
       margin: 2rem 0 2rem 1.6rem !important;
