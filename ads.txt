@@ -1,4 +1,4 @@
-nfolinks.com, 3145272 , DIRECT
+infolinks.com, 3145272 , DIRECT
 google.com, pub-4299156005397946, RESELLER, f08c47fec0942fa0 
 appnexus.com, 3251, RESELLER
 appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
