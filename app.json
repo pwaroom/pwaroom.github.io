@@ -860,6 +860,14 @@
         "type": "Learning",
         "isRegistrationRequired": true,
         "connection": "online"
+    },
+    "joppy": {
+        "title": "Joppy",
+        "description": "Keep an eye on tech job opportunities anonymously and match the job that makes you happy. Joppy is the Tinder for tech recruitment focused on Barcelona. As developers, we know tech recruitment process is broken. Joppy is our attempt to fix it.",
+        "url": "https://www.joppy.me/?utm_source=pwaroom",
+        "type": "Jobs",
+        "isRegistrationRequired": false,
+        "connection": "online"
     }
 
 }
