@@ -41,6 +41,8 @@
               </div>
             <!-- ./ Text item ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
+<input type="hidden" name="IL_IN_ARTICLE">
+
 
             <!-- ./ Screenshots section ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             <div class="row">   
@@ -70,12 +72,11 @@
             </div>
             <!-- ./ specs section ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-
-
+<input type="hidden" name="IL_IN_TAG" value="1"/>
 
             <!-- ./ Favicon ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
               <div>
-                    <div id="navigate" class="fixed-action-btn">
+                    <div id="navigate">
                   </div>                
               </div>
             <!-- ./ Favicon ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -132,7 +133,7 @@
                   detailItems += "<div class='chip white'><i class='specs material-icons'>signal_cellular_connected_no_internet_4_bar</i>Always online</div>";
               }
               $("#details").append(detailItems);
-              var navigationButton = "<a href='" + app['url'] + "' class='grey darken-3 btn-large btn-floating'" +
+              var navigationButton = "<a href='" + app['url'] + "' class='customblue btn-large btn-floating'" +
                   "onClick=\"ga('send','event','detail-item','clickout','click-" + id + "')\" rel='nofollow'>GO!</a>";
               $("#navigate").append(navigationButton);
         });
