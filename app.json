@@ -868,6 +868,14 @@
         "type": "Jobs",
         "isRegistrationRequired": false,
         "connection": "online"
+    },
+    "eastern": {
+        "title": "Eastern",
+        "description": "🤫",
+        "url": "quiz-game/index.html",
+        "type": "Testing",
+        "isRegistrationRequired": false,
+        "connection": "online"
     }
 
 }

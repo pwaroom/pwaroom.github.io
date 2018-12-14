@@ -1,0 +1,148 @@
+/* On screens that are 992px or less, set the background color to blue TABLET*/
+  @media screen and (max-width: 992px) {
+
+  
+  /* On screens that are 600px or less, set the background color to olive SMARTPHONE*/
+  @media screen and (max-width: 600px) {
+    body {
+        margin-top:20px;
+      }
+  
+      h1{
+          font-size: 40px !important;
+          line-height: 80px;
+      }
+  
+      .container{
+          width:80% !important;
+          margin:auto;
+          overflow: hidden;
+      }
+  
+      #boton{
+          font-size:24px !important;
+          height: 120px !important;
+      }
+  
+      #dato{
+          font-size:24px !important;
+          height: 120px !important;
+      }
+  
+  
+    }
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+button, input {
+    margin:0;
+    padding: 0;
+    border:none;
+    -webkit-appearance: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    cursor: pointer;   
+}
+
+body {
+    font-family: 'Press Start 2P';
+    background-color: #6843FF;
+    margin-top: 60px;
+}
+
+h1{
+    margin:0;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#preg{
+    margin:auto;
+    text-align: center;
+}
+
+#dato{
+    font-family: 'Press Start 2P';
+    margin: auto;
+    margin-top:24px;
+    font-size: 12px;
+    height: 46px;
+    width: 100%;
+    text-align: center;
+    background-color: #EEE;
+}
+
+#dato::placeholder{
+    color:#BDBDBD;
+}
+
+#boton{
+    font-family: 'Press Start 2P';
+    margin-top:24px;
+    margin-bottom:20px;
+    font-size: 12px;
+    height: 46px;
+    width: 100%;
+    text-align: center;
+    background-color: #6843FF;
+    color:white;
+}
+
+#boton-next{
+    font-family: 'Press Start 2P';
+    margin-top:24px;
+    margin-bottom:20px;
+    font-size: 12px;
+    height: 46px;
+    width: 100%;
+    text-align: center;
+}
+
+#boton-prev{
+    font-family: 'Press Start 2P';
+    margin-top:24px;
+    margin-bottom:20px;
+    font-size: 12px;
+    height: 46px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.container{
+    width: 400px;
+    margin:auto;
+    background-color: white;
+    border: 50px solid white;
+    box-shadow: 0px 0px 40px #4324C2;
+}
+
+.stats{
+    display: inline;
+}
+
+#preg img{
+    width:90% !important;
+    margin: auto !important;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.col2{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navigate{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    align-items: center;
+}

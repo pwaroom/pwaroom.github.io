@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>pixbands</title>
+	<meta name="description" content="Juego de adivinar preguntas">
+    <meta name="author" content="Chema Moreno - www.pupitredigital.com">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+    <h1>What music band is?</h1>
+
+    <div class="navigate">
+        <div><button id="boton-prev">〈</button></div>
+        <div><p id="preg"></p></div>
+        <div><button id="boton-next">〉</button></div>
+    </div>
+
+    <input type="text" id="dato" placeholder="name of the band...">
+    <button id="boton">CHECK</button>
+    
+    <div class="stats">
+        <div class="col2"><p id="resolucion"></p></div>
+        <div class="col2"><p id="progreso"></p></div>
+    </div>
+
+    </div>
+    <script>
+    // Use ENTER to push Check button
+        var input = document.getElementById("dato");
+        input.addEventListener("keyup", function(event) {
+        event.preventDefault();
+        if (event.keyCode === 13) {
+            document.getElementById("boton").click();
+        }
+        });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="questions.json"></script>
+    <script language="JavaScript" type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>

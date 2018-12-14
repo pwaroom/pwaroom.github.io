@@ -134,7 +134,8 @@
         {"id": "airhorner", "title": "Air Horner"},
         {"id": "tudu", "title": "Tudú"},
         {"id": "qrcodescan", "title": "QRCodescan"},
-        {"id": "currencyconverter", "title": "Currency Converter"}
+        {"id": "currencyconverter", "title": "Currency Converter"},
+        {"id": "eastern", "title": "Eastern"}
      ]
     }   
 ]

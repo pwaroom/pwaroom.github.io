@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>pixbands</title>
+	<meta name="description" content="Juego de adivinar preguntas">
+    <meta name="author" content="Chema Moreno - www.pupitredigital.com">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>Game is over</h1>
+    <button id="boton">RESTART</button>
+    </div>
+
+
+
+    <script>
+        // Get the input field
+        var input = document.getElementById("dato");
+
+        // Execute a function when the user releases a key on the keyboard
+        input.addEventListener("keyup", function(event) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+            // Trigger the button element with a click
+            document.getElementById("boton").click();
+        }
+        });
+    </script>
+
+</body>
+
+</html>

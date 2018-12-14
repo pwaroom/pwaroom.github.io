@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>pixbands</title>
+	<meta name="description" content="Juego de adivinar preguntas">
+    <meta name="author" content="Chema Moreno - www.pupitredigital.com">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>What music band is?</h1>
+	<p id="preg"></p>
+	<input type="text" id="dato" placeholder="name of the band...">
+    <button id="boton">CHECK & NEXT</button>
+    
+    <div class="stats">
+        <div class="col2"><p id="resolucion"></p></div>
+        <div class="col2"><p id="progreso"></p></div>
+    </div>
+
+    </div>
+
+
+
+    <script>
+        // Get the input field
+        var input = document.getElementById("dato");
+
+        // Execute a function when the user releases a key on the keyboard
+        input.addEventListener("keyup", function(event) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Number 13 is the "Enter" key on the keyboard
+        if (event.keyCode === 13) {
+            // Trigger the button element with a click
+            document.getElementById("boton").click();
+        }
+        });
+    </script>
+
+	<script>
+		// Array bidimensional donde se guardarán las preguntas junto a sus respuestas correctas correspondientes...
+		var preguntas = [											// Pregunta, Respuesta
+				['<img src="img/1.png">', 'leonard cohen'],     
+				['<img src="img/2.png">', 'tom waits'],		
+				['<img src="img/3.png">', 'lou reed'],    
+                ['<img src="img/4.png">', 'johny cash'],
+                ['<img src="img/5.png">', 'nick cave'],    
+                ['<img src="img/6.png">', 'bob dylan']
+			],
+        pregunta,
+        respuesta,
+        formuladas = 0,
+        acertadas = 0;
+            
+        hazPregunta();
+		/*
+			Se programa que al pulsarse el botón "Siguiente Pregunta" se compruebe si se ha acertado la pregunta, en cuyo caso, se incrementa en una unidad 'acertadas'.
+			También se comprueba si ya se han realizado las 5 preguntas, en cuyo caso, se llama a 'muestraResultado()' que mostrará el resultado del juego y terminará el programa, de lo contrario, se formula una nueva pregunta.
+        */
+        
+        document.getElementById('resolucion').innerHTML = "score<br>0";
+		document.getElementById('boton').addEventListener('click', function(){
+            var entrada = document.getElementById("dato").value.toLowerCase();
+            if(entrada == respuesta){
+                acertadas++;
+                document.getElementById('resolucion').innerHTML = "score<br>" + acertadas;
+			}
+			if(formuladas < 6){			// Si aun no se han hecho 5 preguntas...
+				hazPregunta();			// ... seguir preguntando
+            }
+        });
+        
+
+		/*
+			Formula una pregunta al usuario...
+		*/
+		function hazPregunta(){
+			var e;			// simple variable auxiliar
+			// se extrae una pregunta/respuesta al azar del array...
+			e = preguntas.splice(0, 1);
+			pregunta = e[0][0];			// se guardan la pregunta y la respuesta 
+			respuesta = e[0][1];
+			document.getElementById('preg').innerHTML = pregunta;        // se muestra la pregunta
+			document.getElementById('dato').value = '';                  // se borra lo escrito anteriormente por el usuario
+            formuladas++;
+            document.getElementById('progreso').innerHTML = "remaining<br>" + (6 - formuladas);
+            }
+        
+	</script>
+</body>
+
+</html>
