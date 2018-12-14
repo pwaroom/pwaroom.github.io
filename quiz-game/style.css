@@ -24,10 +24,13 @@
           font-size:24px !important;
           height: 120px !important;
       }
+
+      #resolucion, #progreso{
+        font-size: 24px;
+        }
   
   
     }
-  }
 
   
   /* On screens that are 600px or less, set the background color to olive SMARTPHONE*/
@@ -56,10 +59,13 @@
           font-size:24px !important;
           height: 120px !important;
       }
+
+      #resolucion, #progreso{
+          font-size: 24px;
+      }      
   
   
     }
-  }
 
 
 
@@ -111,7 +117,7 @@
     }
 
 
-    
+
 
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
