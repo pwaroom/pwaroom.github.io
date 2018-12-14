@@ -1,5 +1,33 @@
 /* On screens that are 992px or less, set the background color to blue TABLET*/
   @media screen and (max-width: 992px) {
+    body {
+        margin-top:20px;
+      }
+  
+      h1{
+          font-size: 40px !important;
+          line-height: 80px;
+      }
+  
+      .container{
+          width:80% !important;
+          margin:auto;
+          overflow: hidden;
+      }
+  
+      #boton{
+          font-size:24px !important;
+          height: 120px !important;
+      }
+  
+      #dato{
+          font-size:24px !important;
+          height: 120px !important;
+      }
+  
+  
+    }
+  }
 
   
   /* On screens that are 600px or less, set the background color to olive SMARTPHONE*/
