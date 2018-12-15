@@ -15,10 +15,6 @@ e=0;
 i=0;
 
 hazPregunta();
-/*
-    Se programa que al pulsarse el botón "Siguiente Pregunta" se compruebe si se ha acertado la pregunta, en cuyo caso, se incrementa en una unidad 'acertadas'.
-    También se comprueba si ya se han realizado las 5 preguntas, en cuyo caso, se llama a 'muestraResultado()' que mostrará el resultado del juego y terminará el programa, de lo contrario, se formula una nueva pregunta.
-*/
 
 document.getElementById('resolucion').innerHTML = "score<br>0";
 document.getElementById('boton').addEventListener('click', function(){
@@ -28,15 +24,12 @@ document.getElementById('boton').addEventListener('click', function(){
         document.getElementById('resolucion').innerHTML = "score<br>" + acertadas;
         preguntas.status = true;
     }
-    if(formuladas < 6){			// Si aun no se han hecho 5 preguntas...
-        hazPregunta();			// ... seguir preguntando
+    if(formuladas < 6){		
+        hazPregunta();		
     }
 });
 
 
-/*
-    Formula una pregunta al usuario...
-*/
 function hazPregunta(){
     e++;
     if (e > 6){
@@ -46,8 +39,8 @@ function hazPregunta(){
     }
     respuesta = preguntas[e-1].answer;
         
-    document.getElementById('preg').innerHTML = "<img src='img/" + pregunta + ".png'>";        // se muestra la pregunta
-    document.getElementById('dato').value = '';                  // se borra lo escrito anteriormente por el usuario
+    document.getElementById('preg').innerHTML = "<img src='img/" + pregunta + ".png'>";        
+    document.getElementById('dato').value = '';                  
     formuladas++;
     document.getElementById('progreso').innerHTML = "remaining<br>" + (6 - formuladas);
 };

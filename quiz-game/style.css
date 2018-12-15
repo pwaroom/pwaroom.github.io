@@ -1,77 +1,4 @@
-/* On screens that are 992px or less, set the background color to blue TABLET*/
-  @media screen and (max-width: 992px) {
-    body {
-        margin-top:20px;
-      }
-  
-      h1{
-          font-size: 40px !important;
-          line-height: 80px;
-      }
-  
-      .container{
-          width:80% !important;
-          margin:auto;
-          overflow: hidden;
-      }
-  
-      #boton{
-          font-size:24px !important;
-          height: 120px !important;
-      }
-  
-      #dato{
-          font-size:24px !important;
-          height: 120px !important;
-      }
-
-      #resolucion, #progreso{
-        font-size: 24px;
-        }
-  
-  
-    }
-
-  
-  /* On screens that are 600px or less, set the background color to olive SMARTPHONE*/
-  @media screen and (max-width: 600px) {
-    body {
-        margin-top:20px;
-      }
-  
-      h1{
-          font-size: 40px !important;
-          line-height: 80px;
-      }
-  
-      .container{
-          width:80% !important;
-          margin:auto;
-          overflow: hidden;
-      }
-  
-      #boton{
-          font-size:24px !important;
-          height: 120px !important;
-      }
-  
-      #dato{
-          font-size:24px !important;
-          height: 120px !important;
-      }
-
-      #resolucion, #progreso{
-          font-size: 24px;
-      }      
-  
-  
-    }
-
-
-
-
-
-
+/* RESET CSS */
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -92,7 +19,7 @@
       font: inherit;
       vertical-align: baseline;
   }
-  /* HTML5 display-role reset for older browsers */
+  
   article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {
       display: block;
@@ -116,6 +43,7 @@
       border-spacing: 0;
     }
 
+/* RESET CSS */
 
 
 
@@ -231,4 +159,10 @@ h1{
     display: grid;
     grid-template-columns: 5% 90% 5%;
     align-items: center;
+}
+
+#resolucion, #progreso{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
 }
