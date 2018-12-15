@@ -11,9 +11,8 @@ var pregunta;
 var respuesta;
 formuladas = 0,
 acertadas = 0;
-e=0;
 i=0;
-
+ 
 hazPregunta();
 
 document.getElementById('resolucion').innerHTML = "score<br>0";
@@ -22,26 +21,23 @@ document.getElementById('boton').addEventListener('click', function(){
     if(entrada == respuesta){
         acertadas++;
         document.getElementById('resolucion').innerHTML = "score<br>" + acertadas;
-        preguntas.status = true;
+        preguntas[i-1].status = true;
     }
-    if(formuladas < 6){		
-        hazPregunta();		
-    }
+
 });
 
 
 function hazPregunta(){
-    e++;
-    if (e > 6){
+    i++;
+    if (i > 6){
         pregunta = 1;
     } else {
-        pregunta = e;
+        pregunta = i;
     }
-    respuesta = preguntas[e-1].answer;
+    respuesta = preguntas[i-1].answer;
         
     document.getElementById('preg').innerHTML = "<img src='img/" + pregunta + ".png'>";        
     document.getElementById('dato').value = '';                  
     formuladas++;
     document.getElementById('progreso').innerHTML = "remaining<br>" + (6 - formuladas);
 };
-
