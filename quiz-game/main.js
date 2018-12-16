@@ -51,7 +51,7 @@ var preguntas = [
     {id: 50, answer: "eminem"}
 ]
 
-document.getElementById('resolucion').innerHTML = "score<br>0/100<br>";
+document.getElementById('resolucion').innerHTML = "score<br>0/50<br>";
 document.getElementById('boton').innerHTML = "CHECK";
 
 
@@ -69,7 +69,7 @@ document.getElementById('boton').addEventListener('click', function(){
     var entrada = document.getElementById('dato').value.toLowerCase();
     if (entrada == respuesta){
         acertadas ++;
-        document.getElementById('resolucion').innerHTML = "score<br>" + acertadas + "/100<br>";
+        document.getElementById('resolucion').innerHTML = "score<br>" + acertadas + "/50<br>";
         estado = preguntas[index-1].status=true;
     } else {
         document.getElementById('dato').value = '';
