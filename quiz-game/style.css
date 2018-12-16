@@ -116,6 +116,7 @@ h1{
 
 #boton-prev, #boton-next{
     color: #6843FF;
+    display:visible;
 }
 
 .stats{
@@ -148,4 +149,11 @@ h1{
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+}
+
+#alerta{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #FF4343;
 }
