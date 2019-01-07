@@ -5,10 +5,6 @@
 /* /Responsive adapt **********************************************************************************************************************************/
 
     @media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
-      .btn-floating{
-        margin-left:20px;
-        margin-bottom:20px;
-      }
 
     }
     @media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -262,4 +258,7 @@
       margin-bottom: 20px;
     }
 
+    .cta{
+      margin-left:20px;
+    }
 /*  /Custom style **********************************************************************************************************************************/
