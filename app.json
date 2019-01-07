@@ -869,6 +869,14 @@
         "isRegistrationRequired": false,
         "connection": "online"
     },
+    "edgy": {
+        "title": "EDGY",
+        "description": "Make EDGY your news destination for the latest developments in technology, science, marketing and culture. Come take your vaccination shot for the 4th industrial revolution.",
+        "url": "https://edgy.app/",
+        "type": "News",
+        "isRegistrationRequired": false,
+        "connection": "online"
+    },
     "eastern": {
         "title": "Eastern",
         "description": "🤫",
