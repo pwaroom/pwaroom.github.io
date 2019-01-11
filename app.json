@@ -878,7 +878,7 @@
         "connection": "online"
     },
     "eastern": {
-        "title": "Eastern",
+        "title": "Quiz",
         "description": "🤫",
         "url": "quiz-game/index.html",
         "type": "Testing",
