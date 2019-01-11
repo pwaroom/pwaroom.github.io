@@ -877,7 +877,7 @@
         "isRegistrationRequired": false,
         "connection": "online"
     },
-    "eastern": {
+    "quiz": {
         "title": "Quiz",
         "description": "🤫",
         "url": "quiz-game/index.html",
