@@ -16,7 +16,7 @@ var preguntas = [
     {id: 15, answer: "gorillaz"}
 ]
 
-document.getElementById('resolucion').innerHTML = "score<br>0/50<br>";
+document.getElementById('resolucion').innerHTML = "score<br>0/15<br>";
 document.getElementById('boton').innerHTML = "CHECK";
 
 
@@ -34,7 +34,7 @@ document.getElementById('boton').addEventListener('click', function(){
     var entrada = document.getElementById('dato').value.toLowerCase();
     if (entrada == respuesta){
         acertadas ++;
-        document.getElementById('resolucion').innerHTML = "score<br>" + acertadas + "/50<br>";
+        document.getElementById('resolucion').innerHTML = "score<br>" + acertadas + "/15<br>";
         estado = preguntas[index-1].status=true;
     } else {
         document.getElementById('dato').value = '';
