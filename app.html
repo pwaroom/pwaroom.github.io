@@ -71,8 +71,7 @@
 
             <!-- ./ Favicon ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
               <div>
-                    <div id="navigate">
-                  </div>                
+                    <div id="navigate"></div>                
               </div>
             <!-- ./ Favicon ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
@@ -100,8 +99,8 @@
                            "<p class='m10'>" + app['description'] + "</p>";
               $("#header").append(header);
 
-              var screenshots = "<div class='col s6'><img src='img/screens/" + id + "-s1.png' class='responsive-img' alt='" + id + "-screenshot-pwa'></div>" +
-                    "<div class='col s6'><img src='img/screens/" + id + "-s2.png' class='responsive-img' alt='" + id + "-screenshot-pwa'></div>";
+              var screenshots = "<div class='col s6'><img src='img/screens/" + id + "-s1.jpg' class='responsive-img' alt='" + id + "-screenshot-pwa'></div>" +
+                    "<div class='col s6'><img src='img/screens/" + id + "-s2.jpg' class='responsive-img' alt='" + id + "-screenshot-pwa'></div>";
               $("#screenshots").append(screenshots);
 
               var detailItems = "";
@@ -131,7 +130,7 @@
               }
               $("#details").append(detailItems);
               var navigationButton = "<a href='" + app['url'] + "' class='waves-effect waves-light btn-large blue cta'" +
-                  "onClick=\"ga('send','event','detail-item','clickout','click-" + id + "')\" rel='nofollow'>VISIT PWA!</a>";
+                  "onClick=\"ga('send','event','detail-item','clickout','click-" + id + "')\" rel='nofollow'>VISIT SITE</a>";
               $("#navigate").append(navigationButton);
         });
 

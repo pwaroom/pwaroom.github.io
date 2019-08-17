@@ -91,7 +91,7 @@
     "redbus": {
         "title": "Redbus",
         "description": "World's largest online bus ticketing platform offers bus travels, ac volvo bus, hotels and bus hire at best rates. Easy cancellation and Instant refund.",
-        "url": "",
+        "url": "https://m.redbus.in/",
         "type": "Traveling",
         "isRegistrationRequired": false,
         "connection": "online_suggested"
@@ -883,6 +883,190 @@
         "url": "quiz-game/index.html",
         "type": "Testing",
         "isRegistrationRequired": false,
+        "connection": "online"
+    },
+    "pacman": {
+        "title": "Pacman",
+        "description": "Pac-Man is a maze arcade game. The original Japanese title of Puck Man was changed to Pac-Man for international releases as a preventative measure against defacement of the arcade machines.",
+        "url": "https://bobrov.dev/pacman-pwa/index.html",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "monopong": {
+        "title": "Monopong",
+        "description": "Don't let the ball scape from the circle, similar as classic Mono Pong.",
+        "url": "https://www.monopong.app/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "mineswepper": {
+        "title": "Mineswepper",
+        "description": "Select all squares that do not contain a mine (X). A safe square tells you how many mines neighbor itself. Optionally right-click a mine to safely flag it.",
+        "url": "https://minesweeper.now.sh/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "arrowsrain": {
+        "title": "Arrows Rain",
+        "description": "Destroy the arrows before they go down to the screen.",
+        "url": "https://arrows-rain.firebaseapp.com/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "defend": {
+        "title": "Defend",
+        "description": "Defend will challenge you to constantly question and reevaluate your strategies. You could surround your energy resources with a wall, however, these have a limited life and will fall apart with time and, without turrets to extract the blue energy from the attackers, you will not proceed beyond the first waves.",
+        "url": "https://xtreemze.github.io/defend/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "mastermind": {
+        "title": "Mastermind",
+        "description": "The goal of the game is to guess the secret color code. Each attempt gets feedback about the correctness of the guess: 1. A filled dot when a color and poition are correct. 2. An empty dot when the color exists in the code but is in other position. The position of the dot doesn't indicate the position of the color.",
+        "url": "https://mastermind.jull.dev/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "majhongsolitaire": {
+        "title": "Majhong Solitaire",
+        "description": "Majhong is a tile-based game that was developed in China during the Qing dynasty and has spread throughout the world since the early 20th century.",
+        "url": "https://mahjong.jull.dev/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "tetra": {
+        "title": "Tetra",
+        "description": "A renewed version of the classic Tetis with a bigger screen.",
+        "url": "https://tmaiadev-tetra.netlify.com/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "tictactoe": {
+        "title": "Tic Tac Toe",
+        "description": "Is a paper-and-pencil game, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.",
+        "url": "https://tmaiadev-tictactoe.netlify.com/",
+        "type": "Game",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "timo": {
+        "title": "Timo",
+        "description": "Timo is a time and task manager designed around the creative’s workflow. It helps you track your daily tasks and time spent completing them, all in one place. This means you'll no longer have a disconnect between work done and work logged, perfect if you're filling out pesky time sheets.",
+        "url": "https://hellotimo.co/",
+        "type": "Tool",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "stopwatch": {
+        "title": "Stopwatch",
+        "description": "Online stopwatch. Easy to use and accurate stopwatch that allow you to mark laps.",
+        "url": "https://stopwatch-app.com/",
+        "type": "Tool",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "penema": {
+        "title": "Penema",
+        "description": "Penana's core mission is Creating a Storyworld. We are a social publication platform embracing solo and collaborative creation and story showcasing. We believe the best way for people to learn and experience life is to be inspired with thoughts and ideas. We also believe writing stories is the most fundamental way of expressing ideas. Anyone can be a writer as long as there is an idea to be conveyed.",
+        "url": "https://m.penana.com/home",
+        "type": "Entertainment",
+        "isRegistrationRequired": false,
+        "connection": "offline"
+    },
+    "radiolise": {
+        "title": "Radiolise",
+        "description": "Penana's core mission is Creating a Storyworld. We are a social publication platform embracing solo and collaborative creation and story showcasing. We believe the best way for people to learn and experience life is to be inspired with thoughts and ideas. We also believe writing stories is the most fundamental way of expressing ideas. Anyone can be a writer as long as there is an idea to be conveyed.",
+        "url": "https://radiolise.gitlab.io/",
+        "type": "Radio",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "gifster": {
+        "title": "Gifster",
+        "description": "Penana's core mission is Creating a Storyworld. We are a social publication platform embracing solo and collaborative creation and story showcasing. We believe the best way for people to learn and experience life is to be inspired with thoughts and ideas. We also believe writing stories is the most fundamental way of expressing ideas. Anyone can be a writer as long as there is an idea to be conveyed.",
+        "url": "https://gif-fer.firebaseapp.com/",
+        "type": "Entertainment",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "mandala": {
+        "title": "Mandala 3D",
+        "description": "Draw your own 3D Mandalas, interactive drawing.",
+        "url": "https://expensive.toys/mandala/",
+        "type": "Entertainment",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "reelgood": {
+        "title": "Reelgood",
+        "description": "All your streaming services in one place. Browse, search, and watch TV & Movies from Netflix, Hulu, HBO, and 50 more!",
+        "url": "https://reelgood.com/",
+        "type": "Entertainment",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "idontlikework": {
+        "title": "I Don't Like Work",
+        "description": "We believe working from home is productive for many reasons. Don't even spend time thinking for a reason to send your boss/team. I Don'tLike.Work is here to increase your improve your productivity by saving your thinking time ;-) #GoWorkFromHome",
+        "url": "https://idontlike.work",
+        "type": "Entertainment",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "geogee": {
+        "title": "Geogee",
+        "description": "Test your knowledge of the world and learn along the way. Quiz modes include borders, trivia, flags, map shapes and populations. Each quiz mode can be played for any or multiple continents. Click the hamburger menu to customise your game or select one of the predefined options on this page.",
+        "url": "https://geogee.me/",
+        "type": "Game",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "ourenergy": {
+        "title": "Our Energy",
+        "description": "Have you ever though about using your electricity when it is being produced from solar photovoltaic systems? Get the app and give it a try!",
+        "url": "https://geogee.me/",
+        "type": "Lifestyle",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "vipassana": {
+        "title": "Vipassana",
+        "description": "Vipassana.live activates the inner observer instantly and effortlessly, and without the need to have prior meditation knowledge or experience.",
+        "url": "https://vipassana.live/",
+        "type": "Lifestyle",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "curable": {
+        "title": "Curable",
+        "description": "Take control over chronic pain with the Curable app. Let our smart coach, named Clara, guide you through the latest pain science in fun, easy-to-understand audio lessons that will help you learn what is happening in your body and how to reverse the cycle of pain.",
+        "url": "https://www.curablehealth.com/clara",
+        "type": "Lifestyle",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "insulinbuddy": {
+        "title": "Insulin Buddy",
+        "description": "A good buddy for Diabetes management.",
+        "url": "https://app.insulin-buddy.com/index.html#/",
+        "type": "Lifestyle",
+        "isRegistrationRequired": true,
+        "connection": "online"
+    },
+    "picular": {
+        "title": "Picular",
+        "description": "A google, but for colors.",
+        "url": "https://picular.co/",
+        "type": "Entertainment",
+        "isRegistrationRequired": true,
         "connection": "online"
     }
 
